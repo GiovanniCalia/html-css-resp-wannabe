@@ -73,13 +73,33 @@ img {
 }
 
 @media screen and (max-width: 419px){
+  
+  *{
+    margin: 0 auto;
+  }
+
   .row{
+    width: 90%;
+    margin-top: 0;
+    padding: 1rem;
+  }
+  
+  #lezioni .row{
     background-color: #f2f2cd;
-    width: 100%;
   }
    
   #lezioni .row>.left,
   #lezioni .row>.right{
     width: 100%; 
+  }
+
+  #steps .row{
+    background-color: white;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  width: 100%;
   }
 }

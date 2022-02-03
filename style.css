@@ -72,6 +72,7 @@ img {
   clear: both;
 }
 
+/* MEDIA QUERY ZONE */
 @media screen and (max-width: 419px){
   
   *{
@@ -91,6 +92,7 @@ img {
   #lezioni .row>.left,
   #lezioni .row>.right{
     width: 100%; 
+    margin-top: 1.5rem;
   }
 
   #steps .row{
@@ -99,22 +101,22 @@ img {
 
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right {
-  width: 100%;
+  #steps .row>.right{
+    width: 100%;
+    margin-top: 1.5rem;
   }
 
   #why .row>.first,
   #why .row>.second,
   #why .row>.third{
-  margin-top: 1.5rem;
-  }
-
-  #why img{
-  height: 15vw;
+    margin-top: 1.5rem;
   }
 
   img{
-  height:30vw;
+    height:30vw;
   }
-  
+
+  #why img{
+    height: 15vw;
+  }
 }

@@ -73,6 +73,49 @@ img {
 }
 
 /* MEDIA QUERY ZONE */
+@media screen and (min-width: 421px) and (max-width: 768px){
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #lezioni{
+    order: 2;
+  }
+
+  #steps{
+    order: 1;
+  }
+
+  #why{
+    order: 3;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  .left, .right, .central{
+    float: none !important;
+    width: 100% !important;
+  }
+
+  #steps, #why{
+    background-color: #f2f2cd;
+  }
+  
+}
+
 @media screen and (max-width: 419px){
   
   *{
